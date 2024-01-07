@@ -1,0 +1,11 @@
+Model Information:
+* title:	House Diorama
+* source:	https://sketchfab.com/3d-models/house-diorama-ab85a249815b4d14b5b9a4c60efdb821
+* author:	Pau Torres (https://sketchfab.com/Stir17)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "House Diorama" (https://sketchfab.com/3d-models/house-diorama-ab85a249815b4d14b5b9a4c60efdb821) by Pau Torres (https://sketchfab.com/Stir17) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

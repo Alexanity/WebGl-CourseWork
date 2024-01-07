@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module" src="js/main.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      #buttons {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      #buttons button {
+        margin: 5px;
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      #container3D {
+        width: 100%;
+        height: 100vh;
+      }
+    </style> 
+  </head>
+  <body>
+    <header>
+      <h1>3D Models</h1>
+      <div id="buttons">
+        <button id="donutBtn">Donut</button>
+        <button id="houseBtn">House</button>
+        <button id="catBtn">Cat</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="container3D"></div>
+    </main>
+
+    <script>
+      const buttons = document.querySelectorAll('button');
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const modelName = button.textContent.toLowerCase();
+          const modelChangeEvent = new CustomEvent('modelChange', { detail: modelName });
+          window.dispatchEvent(modelChangeEvent);
+        });
+      });
+    </script>
+  </body>
+</html>
